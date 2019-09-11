@@ -1,0 +1,47 @@
+---
+.gitattributes:
+  # As this is for Windows, ERB files can be either LF or CRLF
+  exclude:
+  - "*.erb"
+
+.gitignore:
+  required:
+    - ---.project
+
+.gitlab-ci.yml:
+  unmanaged: true
+
+.travis.yml:
+  unmanaged: true
+
+.rubocop.yml:
+  default_configs:
+    inherit_from: .rubocop_todo.yml
+    require:
+    - rubocop-rspec
+
+appveyor.yml:
+  unmanaged: true
+
+Gemfile:
+  required:
+    ':system_tests':
+      - gem: 'nokogiri'
+        platforms:
+          - ruby
+          - mswin
+          - mingw
+          - x64_mingw
+  optional:
+    ':development':
+      - gem: 'github_changelog_generator'
+        git: 'https://github.com/skywinder/github-changelog-generator'
+        ref: '20ee04ba1234e9e83eb2ffb5056e23d641c7a018'
+        condition: "Gem::Version.new(RUBY_VERSION.dup) >= Gem::Version.new('2.2.2')"
+
+spec/default_facts.yml:
+  unmanaged: true
+
+spec/spec_helper.rb:
+  mock_with: ':rspec'
+  coverage_report: true

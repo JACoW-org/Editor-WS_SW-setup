@@ -1,0 +1,5 @@
+# ./data/common.yaml
+---
+profiles::swpkg_install::username: IBICeditor
+profiles::swpkg_install::password: ibic
+profiles::swpkg_install::SPMSurl: 'https://oraweb.cern.ch/pls/ibic2019/profile.html'

@@ -1,0 +1,11 @@
+{
+    "puppet_task_version": 1,
+    "supports_noop": false,
+    "description": "Adds a font on a node.",
+    "parameters": {
+      "path": {
+        "description": "Font file or folder path.",
+        "type": "Variant[Array[String],String]"
+      }
+    }a
+  }

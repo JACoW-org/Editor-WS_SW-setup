@@ -1,0 +1,8 @@
+﻿nodes:
+  - name: host1.example.net
+    config:
+      transport: ssh
+      ssh:
+        host-key-check: true
+        port: 22
+        private-key: /.ssh/id_rsa-example
