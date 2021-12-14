@@ -4,11 +4,12 @@ groups:
   config:
     transport: winrm
     winrm:
-      user: johan
-      password: apa
+      user: Administrator
+      password: AdminWinRMPass
       ssl: false
   targets:
   - 192.168.1.147
+  - 192.168.1.148
 plugin_hooks:
   puppet_library:
     plugin: puppet_agent
