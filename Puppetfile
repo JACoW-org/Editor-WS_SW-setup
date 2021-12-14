@@ -1,4 +1,5 @@
-﻿mod 'puppetlabs-package', '1.1.0'
+﻿mod 'puppet-download_file', '4.0.0'
+mod 'puppetlabs-package', '1.1.0'
 mod 'puppetlabs-puppet_conf', '0.6.0'
 mod 'puppetlabs-facts', '1.0.0'
 mod 'puppetlabs-inifile', '4.2.0'
