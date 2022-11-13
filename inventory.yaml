@@ -5,12 +5,8 @@ groups:
     transport: winrm
     winrm:
       user: Administrator
-      password: AdminWinRMPass
+      password: admin
       ssl: false
   targets:
-  - 192.168.1.147
-  - 192.168.1.148
-plugin_hooks:
-  puppet_library:
-    plugin: puppet_agent
-    version: 6.0.10
+  - 10.33.0.67
+  - 10.33.0.69
