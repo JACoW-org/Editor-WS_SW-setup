@@ -1,4 +1,4 @@
-# This file was automatically generated on 2022-11-10 15:16:26 -0500.
+# This file was automatically generated on 2022-11-10 17:35:53 +0100.
 # Use the 'puppet generate types' command to regenerate this file.
 
 # @summary Manages mounted filesystems, including putting mount information into the mount table.

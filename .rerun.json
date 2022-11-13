@@ -1,1 +1,1 @@
-[{"target":"localhost","status":"failure"}]
+[{"target":"winrm://localhost:2200","status":"failure"}]

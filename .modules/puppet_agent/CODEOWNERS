@@ -1,0 +1,6 @@
+# default to phoenix
+* @puppetlabs/phoenix
+
+# tasks
+/tasks @puppetlabs/bolt
+/task_spec @puppetlabs/bolt

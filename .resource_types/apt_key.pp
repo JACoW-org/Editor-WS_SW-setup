@@ -1,4 +1,4 @@
-# This file was automatically generated on 2022-11-10 15:16:23 -0500.
+# This file was automatically generated on 2022-11-10 17:35:55 +0100.
 # Use the 'puppet generate types' command to regenerate this file.
 
 # @summary This type provides Puppet with the capabilities to manage GPG keys needed
