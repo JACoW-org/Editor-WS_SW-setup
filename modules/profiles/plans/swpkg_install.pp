@@ -26,6 +26,7 @@ plan profiles::swpkg_install(
       'handbrake',
       'vp8-vfw',
       'virtualdub',
+      'office2019proplus',
     ]
     each($pkgs) |$name | {
       package { $name:
