@@ -1,6 +1,0 @@
-{
-  "description": "Gather system facts using powershell",
-  "private": true,
-  "input_method": "environment",
-  "parameters": {}
-}

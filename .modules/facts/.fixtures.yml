@@ -1,5 +1,0 @@
-fixtures:
-  forge_modules:
-    ruby_task_helper: 'puppetlabs/ruby_task_helper'
-  symlinks:
-    facts: "#{source_dir}"
