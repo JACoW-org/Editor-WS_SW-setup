@@ -9,3 +9,5 @@ bolt-debug.log
 .rerun.json
 Jacow-SWPKG.code-workspace
 modules/.DS_Store
+.rerun.json
+.task_cache.json

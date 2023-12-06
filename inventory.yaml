@@ -8,5 +8,4 @@ groups:
       password: admin
       ssl: false
   targets:
-  - 10.33.0.67
-  - 10.33.0.69
+  - 192.168.1.141
