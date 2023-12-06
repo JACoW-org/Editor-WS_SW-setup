@@ -1,7 +1,7 @@
 .git/
-.modules/
+.modules/*
 .DS_Store
-.resource_types/
+.resource_types/*
 bolt-debug.log
 .plan_cache.json
 .plugin_cache.json
